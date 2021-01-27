@@ -3,6 +3,7 @@ class Example {
 	int x,y;
 	void show() {
 		System.out.println("Hello World");
+		System.out.println("Hello World");
 	}
 }
 
@@ -24,6 +25,5 @@ class RunApp {
 
 		e.show();
 		System.out.println(c1.getName());
-	}	
+	}
 }
-	
