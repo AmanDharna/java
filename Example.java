@@ -3,13 +3,18 @@ class Example {
 	int x,y;
 	void show() {
 		System.out.println("Hello World");
-		System.out.println("Hello World");
+	}
+
+	void display() {
+		x = 10;
+		System.out.println("x is: " + x);
 	}
 }
 
 class RunApp {
 	public static void main(String[] args) {
 		Example e = new Example();
+		e.display();
 		Class c1 = e.getClass();
 		Method m[] = c1.getDeclaredMethods();
 
